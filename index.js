@@ -115,5 +115,5 @@ app.post("/chat_agent_langgraph", async (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("server started at", port)
+    console.log("server started at port", port)
 })
